@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'mukta', sans-serif;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 60px;
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav h1 {
+    font-size: 40px;
+    gap: 10px;
+}
+
+nav h1 i {
+    rotate: 45deg;
+    display: inline-block;
+}
+
+nav h4 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+nav button {
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 3px solid black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.center {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    padding: 70px 80px;
+}
+
+.centerPart-1 {
+    height: 100%;
+    width: 45%;
+}
+
+.centerPart-1 h1 {
+    font-size: 70px;
+    line-height: 6vw;
+    font-family: 'Kanit';
+}
+
+.centerPart-1 p {
+    font-size: 22px;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.centerPart-1 button {
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.centerPart-2 {
+    height: 100%;
+    width: 55%;
+    position: relative;
+}
+
+.centerPart-2 img {
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+.scroller-brands {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.brands-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0 15px 80px;
+    gap: 80px;
+}
+
+.brands-icons img {
+    height: 60px;
+}
+
+.services {
+    display: flex;
+    padding: 50px 80px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.services h3 {
+    background-color: #B9FF66;
+    font-weight: 500;
+    padding: 0 6px;
+    border-radius: 5px;
+    font-size: 40px;
+    font-family: 'kanit';
+}
+
+.services p {
+    width: 45%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container {
+    height: 85%;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cont {
+    height: 270px;
+    width: 47%;
+    border: 3px solid black;
+    border-radius: 20px;
+    flex-shrink: 0;
+    box-shadow: 0 10px 0 black;
+    padding: 40px;
+    display: flex;
+}
+
+.cont-part1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.cont-part1 h2 {
+    font-size: 30px;
+    background-color: #B9FF66;
+    font-family: 'kanit';
+    width: 80%;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.cont-part1 h4 {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.cont-part1 h4 i {
+    padding: 10px;
+    background-color: black;
+    color: #B9FF66;
+    border-radius: 50%;
+    font-weight: 900;
+}
+
+.cont-part2 {
+    height: 100%;
+    width: 50%;
+}
+
+.cont-part2 img {
+    height: 100%;
+}
+
+.black {
+    background-color: #000;
+    color: #fff
+}
+
+.black h2 {
+    background-color: #fff;
+    color: #000;
+}
+
+.black .cont-part1 h4 i {
+    background-color: #fff;
+    color: #000;
+}
+
+#lastPage {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#lastPage .section3 {
+    background-color: #191A23;
+    height: 100%;
+    width: 80%;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+#lastPage nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lastPage nav h4 {
+    font-weight: 400;
+    text-decoration: 2px underline white;
+}
+
+#lastPage nav .part3 i {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.middlePart.lastPage {
+    height: 80%;
+    display: flex;
+    padding: 10px 30px;
+}
+
+.middlePart.left {
+    width: 40%;
+    height: 100%;
+}
+
+.middlePart.left h3 {
+    margin: 15px 35px;
+    font-size: 25px;
+    background-color: #B9FF66;
+    width: 40%;
+    color: #000;
+    border-radius: 10px;
+}
+
+.middlePart.left p,
+address {
+    padding: 10px 35px;
+}
+
+.middlePart.right {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#emailBox {
+    height: 70%;
+    width: 93%;
+    padding: 50px 45px;
+    background-color: #292A32;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#emailBox input {
+    border: 2px solid white;
+    padding: 20px 30px;
+    width: 250px;
+    background-color: transparent;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#emailBox button {
+    padding: 10px 50px;
+    font-size: 20px;
+    background-color: #B9FF66;
+    font-family: 'mukta';
+    border-radius: 15px;
+}
+
+#whiteline {
+    width: 90%;
+    height: 2px;
+    background-color: #fff;
+    margin: 10px 5% 10px;
+}
+
+#copyRight {
+    font-size: 20px;
+    margin: 3% 5%;
+}
+
+#copyRight a {
+    color: #fff;
+    padding: 20px;
+}
